@@ -12,9 +12,7 @@ services:
     envVars:
       - key: FETCH_WORKERS
         value: "10"
-      # Optional: Set a salted password via base64(salt+key) as a Render Secret
-      - key: SALTED_PASS
-        fromSecret: CHANGED_SALTED_PASS
+      # Optional: Add SALTED_PASS in Render dashboard (Environment → Add Secret)
     disk:
       name: changedata
       mountPath: /datastore
