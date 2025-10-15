@@ -11,7 +11,7 @@ Ideal for monitoring price changes, content edits, conditional changes and more.
 
 [![Release Version][release-shield]][release-link] [![Docker Pulls][docker-pulls]][docker-link] [![License][license-shield]](LICENSE.md)
 
-![changedetection.io](https://github.com/dgtlmoon/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master)
+![changedetection.io](https://github.com/sneaker-dev/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master)
 
 [**Get started with website page change monitoring straight away. Don't have time? Try our $8.99/month subscription, use our proxies and support!**](https://changedetection.io) , _half the price of other website change monitoring services!_
 
@@ -24,7 +24,7 @@ Ideal for monitoring price changes, content edits, conditional changes and more.
 
 ### Target specific parts of the webpage using the Visual Selector tool.
 
-Available when connected to a <a href="https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
+Available when connected to a <a href="https://github.com/sneaker-dev/changedetection.io/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
 
 [<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/visualselector-anim.gif" style="max-width:100%;" alt="Select parts and elements of a web page to monitor for changes"  title="Select parts and elements of a web page to monitor for changes" />](https://changedetection.io?src=github)
 
@@ -99,12 +99,12 @@ _Need an actual Chrome runner with Javascript support? We support fetching via W
 - Execute JS before extracting text (Good for logging in, see examples in the UI!)
 - Override Request Headers, Specify `POST` or `GET` and other methods
 - Use the "Visual Selector" to help target specific elements
-- Configurable [proxy per watch](https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration)
+- Configurable [proxy per watch](https://github.com/sneaker-dev/changedetection.io/wiki/Proxy-configuration)
 - Send a screenshot with the notification when a change is detected in the web page
 
 We [recommend and use Bright Data](https://brightdata.grsm.io/n0r16zf7eivq) global proxy services, Bright Data will match any first deposit up to $150 using our signup link.
 
-Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/changedetection.io/
+Please :star: star :star: this project and help it grow! https://github.com/sneaker-dev/changedetection.io/
 
 ### Conditional web page changes
 
@@ -127,7 +127,7 @@ Easily add the current web page to your changedetection.io tool, simply install 
 
 [<img src="./docs/chrome-extension-screenshot.png" style="max-width:80%;" alt="Chrome Extension to easily add the current web-page to detect a change."  title="Chrome Extension to easily add the current web-page to detect a change."  />](https://chromewebstore.google.com/detail/changedetectionio-website/kefcfmgmlhmankjmnbijimhofdjekbop)
 
-[Goto the Chrome Webstore to download the extension.](https://chromewebstore.google.com/detail/changedetectionio-website/kefcfmgmlhmankjmnbijimhofdjekbop) ( Or check out the [GitHub repo](https://github.com/dgtlmoon/changedetection.io-browser-extension) ) 
+[Goto the Chrome Webstore to download the extension.](https://chromewebstore.google.com/detail/changedetectionio-website/kefcfmgmlhmankjmnbijimhofdjekbop) ( Or check out the [GitHub repo](https://github.com/sneaker-dev/changedetection.io-browser-extension) ) 
 
 ## Installation
 
@@ -150,7 +150,7 @@ Alternative docker repository over at ghcr - [ghcr.io/dgtlmoon/changedetection.i
 
 ### Windows
 
-See the install instructions at the wiki https://github.com/dgtlmoon/changedetection.io/wiki/Microsoft-Windows
+See the install instructions at the wiki https://github.com/sneaker-dev/changedetection.io/wiki/Microsoft-Windows
 
 ### Python Pip
 
@@ -181,7 +181,7 @@ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/dat
 docker compose pull && docker compose up -d
 ```
 
-See the wiki for more information https://github.com/dgtlmoon/changedetection.io/wiki
+See the wiki for more information https://github.com/sneaker-dev/changedetection.io/wiki
 
 
 ## Filters
@@ -229,7 +229,7 @@ For more complex parsing, filtering, and modifying of JSON data, jq is recommend
 
 One big advantage of `jq` is that you can use logic in your JSON filter, such as filters to only show items that have a value greater than/less than etc.
 
-See the wiki https://github.com/dgtlmoon/changedetection.io/wiki/JSON-Selector-Filter-help for more information and examples
+See the wiki https://github.com/sneaker-dev/changedetection.io/wiki/JSON-Selector-Filter-help for more information and examples
 
 ### Parse JSON embedded in HTML!
 
@@ -265,11 +265,11 @@ The application also supports notifying you that it can follow this information 
 
 ## Proxy Configuration
 
-See the wiki https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration , we also support using [Bright Data proxy services where possible](https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration#brightdata-proxy-support) and [Oxylabs](https://oxylabs.go2cloud.org/SH2d) proxy services.
+See the wiki https://github.com/sneaker-dev/changedetection.io/wiki/Proxy-configuration , we also support using [Bright Data proxy services where possible](https://github.com/sneaker-dev/changedetection.io/wiki/Proxy-configuration#brightdata-proxy-support) and [Oxylabs](https://oxylabs.go2cloud.org/SH2d) proxy services.
 
 ## Raspberry Pi support?
 
-Raspberry Pi and linux/arm/v6 linux/arm/v7 arm64 devices are supported! See the wiki for [details](https://github.com/dgtlmoon/changedetection.io/wiki/Fetching-pages-with-WebDriver)
+Raspberry Pi and linux/arm/v6 linux/arm/v7 arm64 devices are supported! See the wiki for [details](https://github.com/sneaker-dev/changedetection.io/wiki/Fetching-pages-with-WebDriver)
 
 ## Import support
 
@@ -299,10 +299,10 @@ I offer commercial support, this software is depended on by network security, ae
 
 [release-shield]: https://img.shields.io:/github/v/release/dgtlmoon/changedetection.io?style=for-the-badge
 [docker-pulls]: https://img.shields.io/docker/pulls/dgtlmoon/changedetection.io?style=for-the-badge
-[test-shield]: https://github.com/dgtlmoon/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master
+[test-shield]: https://github.com/sneaker-dev/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master
 
 [license-shield]: https://img.shields.io/github/license/dgtlmoon/changedetection.io.svg?style=for-the-badge
-[release-link]: https://github.com/dgtlmoon/changedetection.io/releases
+[release-link]: https://github.com/sneaker-dev/changedetection.io/releases
 [docker-link]: https://hub.docker.com/r/dgtlmoon/changedetection.io
 
 ## Commercial Licencing

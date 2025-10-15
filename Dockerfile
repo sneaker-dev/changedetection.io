@@ -44,7 +44,7 @@ RUN --mount=type=cache,target=/tmp/pip-cache \
 
 # Playwright is an alternative to Selenium
 # Excluded this package from requirements.txt to prevent arm/v6 and arm/v7 builds from failing
-# https://github.com/dgtlmoon/changedetection.io/pull/1067 also musl/alpine (not supported)
+# https://github.com/sneaker-dev/changedetection.io/pull/1067 also musl/alpine (not supported)
 RUN --mount=type=cache,target=/tmp/pip-cache \
     pip install \
     --cache-dir=/tmp/pip-cache \
@@ -54,7 +54,7 @@ RUN --mount=type=cache,target=/tmp/pip-cache \
 
 # Final image stage
 FROM python:${PYTHON_VERSION}-slim-bookworm
-LABEL org.opencontainers.image.source="https://github.com/dgtlmoon/changedetection.io"
+LABEL org.opencontainers.image.source="https://github.com/sneaker-dev/changedetection.io"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libxslt1.1 \

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Read more https://github.com/dgtlmoon/changedetection.io/wiki
+# Read more https://github.com/sneaker-dev/changedetection.io/wiki
 
 __version__ = '0.50.24'
 

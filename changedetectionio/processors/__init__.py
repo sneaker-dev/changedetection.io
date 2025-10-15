@@ -62,7 +62,7 @@ class difference_detection_processor():
                 custom_browser_connection_url = connection[0].get('browser_connection_url')
 
         # PDF should be html_requests because playwright will serve it up (so far) in a embedded page
-        # @todo https://github.com/dgtlmoon/changedetection.io/issues/2019
+        # @todo https://github.com/sneaker-dev/changedetection.io/issues/2019
         # @todo needs test to or a fix
         if self.watch.is_pdf:
            prefer_fetch_backend = "html_requests"

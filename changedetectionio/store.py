@@ -778,7 +778,7 @@ class ChangeDetectionStore:
 
     # We incorrectly stored last_changed when there was not a change, and then confused the output list table
     def update_3(self):
-        # see https://github.com/dgtlmoon/changedetection.io/pull/835
+        # see https://github.com/sneaker-dev/changedetection.io/pull/835
         return
 
     # `last_changed` not needed, we pull that information from the history.txt index

@@ -22,7 +22,7 @@ mtable = {'seconds': 1, 'minutes': 60, 'hours': 3600, 'days': 86400, 'weeks': 86
 
 
 def is_safe_url(test_url):
-    # See https://github.com/dgtlmoon/changedetection.io/issues/1358
+    # See https://github.com/sneaker-dev/changedetection.io/issues/1358
 
     # Remove 'source:' prefix so we dont get 'source:javascript:' etc
     # 'source:' is a valid way to tell us to return the source
@@ -163,7 +163,7 @@ class model(watch_base):
     @property
     def is_pdf(self):
         # content_type field is set in the future
-        # https://github.com/dgtlmoon/changedetection.io/issues/1392
+        # https://github.com/sneaker-dev/changedetection.io/issues/1392
         # Not sure the best logic here
         return self.get('url', '').lower().endswith('.pdf') or 'pdf' in self.get('content_type', '').lower()
 

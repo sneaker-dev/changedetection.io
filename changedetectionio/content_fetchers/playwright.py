@@ -229,7 +229,7 @@ class fetcher(Fetcher):
             try:
                 self.status_code = response.status
             except Exception as e:
-                # https://github.com/dgtlmoon/changedetection.io/discussions/2122#discussioncomment-8241962
+                # https://github.com/sneaker-dev/changedetection.io/discussions/2122#discussioncomment-8241962
                 logger.critical(f"Response from the browser/Playwright did not have a status_code! Response follows.")
                 logger.critical(response)
                 await context.close()

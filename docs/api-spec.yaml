@@ -31,7 +31,7 @@ info:
   version: 0.1.1
   contact:
     name: ChangeDetection.io
-    url: https://github.com/dgtlmoon/changedetection.io
+    url: https://github.com/sneaker-dev/changedetection.io
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html

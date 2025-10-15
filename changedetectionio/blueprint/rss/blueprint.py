@@ -93,7 +93,7 @@ def construct_blueprint(datastore: ChangeDetectionStore):
 
             if not watch.viewed:
                 # Re #239 - GUID needs to be individual for each event
-                # @todo In the future make this a configurable link back (see work on BASE_URL https://github.com/dgtlmoon/changedetection.io/pull/228)
+                # @todo In the future make this a configurable link back (see work on BASE_URL https://github.com/sneaker-dev/changedetection.io/pull/228)
                 guid = "{}/{}".format(watch['uuid'], watch.last_changed)
                 fe = fg.add_entry()
 

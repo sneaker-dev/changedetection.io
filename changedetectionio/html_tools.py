@@ -368,7 +368,7 @@ def extract_json_blob_from_html(content, ensure_is_ldjson_info_type, json_filter
 def extract_json_as_string(content, json_filter, ensure_is_ldjson_info_type=None):
 
     stripped_text_from_html = False
-# https://github.com/dgtlmoon/changedetection.io/pull/2041#issuecomment-1848397161w
+# https://github.com/sneaker-dev/changedetection.io/pull/2041#issuecomment-1848397161w
     # Try to parse/filter out the JSON, if we get some parser error, then maybe it's embedded within HTML tags
 
     # Looks like clean JSON, dont bother extracting from HTML

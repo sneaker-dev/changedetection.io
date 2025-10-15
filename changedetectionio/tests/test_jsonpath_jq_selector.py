@@ -413,7 +413,7 @@ def test_ignore_json_order(client, live_server, measure_memory_usage):
     delete_all_watches(client)
 
 def test_correct_header_detect(client, live_server, measure_memory_usage):
-    # Like in https://github.com/dgtlmoon/changedetection.io/pull/1593
+    # Like in https://github.com/sneaker-dev/changedetection.io/pull/1593
     # Specify extra html that JSON is sometimes wrapped in - when using SockpuppetBrowser / Puppeteer / Playwrightetc
     with open("test-datastore/endpoint-content.txt", "w") as f:
         f.write('<html><body>{ "world": 123, "hello" : 123}')

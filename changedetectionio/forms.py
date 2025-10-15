@@ -433,7 +433,7 @@ class ValidateContentFetcherIsReady(object):
         #             'Be sure that the selenium/webdriver runner is running and accessible via network from this container/host.')
         #         message += '<br>' + field.gettext('Did you follow the instructions in the wiki?')
         #         message += '<br><br>' + field.gettext('WebDriver Host: %s' % (driver_url))
-        #         message += '<br><a href="https://github.com/dgtlmoon/changedetection.io/wiki/Fetching-pages-with-WebDriver">Go here for more information</a>'
+        #         message += '<br><a href="https://github.com/sneaker-dev/changedetection.io/wiki/Fetching-pages-with-WebDriver">Go here for more information</a>'
         #         message += '<br>'+field.gettext('Content fetcher did not respond properly, unable to use it.\n %s' % (str(e)))
         #
         #         raise ValidationError(message)
@@ -446,7 +446,7 @@ class ValidateContentFetcherIsReady(object):
 class ValidateNotificationBodyAndTitleWhenURLisSet(object):
     """
        Validates that they entered something in both notification title+body when the URL is set
-       Due to https://github.com/dgtlmoon/changedetection.io/issues/360
+       Due to https://github.com/sneaker-dev/changedetection.io/issues/360
        """
 
     def __init__(self, message=None):

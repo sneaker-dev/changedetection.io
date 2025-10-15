@@ -1,0 +1,286 @@
+[32m2025-10-15 22:33:05.657[0m | [34m[1mDEBUG   [0m | [36mchangedetectionio.content_fetchers[0m:[36m<module>[0m:[36m62[0m - [34m[1mFalling back to selenium as fetcher[0m
+[32m2025-10-15 22:33:06.085[0m | [34m[1mDEBUG   [0m | [36mchangedetectionio.queue_handlers[0m:[36m__init__[0m:[36m53[0m - [34m[1mRecheckPriorityQueue initialized successfully[0m
+[32m2025-10-15 22:33:06.138[0m | [34m[1mDEBUG   [0m | [36mchangedetectionio.queue_handlers[0m:[36m__init__[0m:[36m358[0m - [34m[1mNotificationQueue initialized successfully[0m
+[32m2025-10-15 22:33:06.210[0m | [1mINFO    [0m | [36mchangedetectionio.flask_app[0m:[36m<module>[0m:[36m90[0m - [1mSystem locale default is ('en_US', 'cp1252')[0m
+[32m2025-10-15 22:33:06.245[0m | [33m[1mWARNING [0m | [36mchangedetectionio.flask_app[0m:[36m<module>[0m:[36m94[0m - [33m[1mUnable to set locale ('en_US', 'cp1252'), locale is not installed maybe?[0m
+[32m2025-10-15 22:33:06.388[0m | [32m[1mSUCCESS [0m | [36mchangedetectionio[0m:[36mmain[0m:[36m131[0m - [32m[1mchangedetection.io version 0.50.24 starting.[0m
+[32m2025-10-15 22:33:06.666[0m | [41m[1mCRITICAL[0m | [36mchangedetectionio.store[0m:[36m__init__[0m:[36m100[0m - [41m[1mNo JSON DB found at D:\changedata\url-watches.json, creating JSON store at D:\changedata[0m
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.10.202:5000
+Press CTRL+C to quit
+127.0.0.1 - - [15/Oct/2025 22:33:10] "GET / HTTP/1.1" 200 -
+[32m2025-10-15 22:33:11.833[0m | [31m[1mERROR   [0m | [36mchangedetectionio.processors.magic[0m:[36m__init__[0m:[36m91[0m - [31m[1mError getting a more precise mime type from 'puremagic' library (Could not identify file), using content-based detection[0m
+[32m2025-10-15 22:33:30.497[0m | [31m[1mERROR   [0m | [36mchangedetectionio.async_update_worker[0m:[36masync_update_worker[0m:[36m292[0m - [31m[1mWorker 0 exception processing watch UUID: 3d8b6bfe-94e4-4a82-ba5f-47cecab71bba[0m
+[32m2025-10-15 22:33:30.498[0m | [31m[1mERROR   [0m | [36mchangedetectionio.async_update_worker[0m:[36masync_update_worker[0m:[36m293[0m - [31m[1mHTTPSConnectionPool(host='news.ycombinator.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F83EE67850>, 'Connection to news.ycombinator.com timed out. (connect timeout=45)'))[0m
+[32m2025-10-15 22:33:30.499[0m | [31m[1mERROR   [0m | [36mchangedetectionio.html_tools[0m:[36mextract_title[0m:[36m576[0m - [31m[1mTitle extraction received unsupported data type: <class 'NoneType'>[0m
+127.0.0.1 - - [15/Oct/2025 22:35:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/csrf.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/images/google-chrome-icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:05] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:06] "GET /static/favicons/apple-touch-icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:06] "GET /static/favicons/favicon-16x16.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:25] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:35:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:35] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:35] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:35] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:35] "GET /static/js/csrf.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:35:35] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/images/google-chrome-icon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:35:36] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:36:06] "POST /form/add/quickwatch HTTP/1.1" 302 -
+[32m2025-10-15 22:36:06.160[0m | [31m[1mERROR   [0m | [36mchangedetectionio.async_update_worker[0m:[36masync_update_worker[0m:[36m292[0m - [31m[1mWorker 0 exception processing watch UUID: 3d8b6bfe-94e4-4a82-ba5f-47cecab71bba[0m
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /?tag= HTTP/1.1" 200 -
+[32m2025-10-15 22:36:06.188[0m | [31m[1mERROR   [0m | [36mchangedetectionio.async_update_worker[0m:[36masync_update_worker[0m:[36m293[0m - [31m[1mHTTPSConnectionPool(host='news.ycombinator.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F83EE8F410>, 'Connection to news.ycombinator.com timed out. (connect timeout=45)'))[0m
+[32m2025-10-15 22:36:06.210[0m | [31m[1mERROR   [0m | [36mchangedetectionio.html_tools[0m:[36mextract_title[0m:[36m576[0m - [31m[1mTitle extraction received unsupported data type: <class 'NoneType'>[0m
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/csrf.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/images/google-chrome-icon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:36:06] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:07] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:07] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:07] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:07] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:07] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:36:07] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /preview/facb9fb5-9e1e-4ace-b3a9-07ea10ca390f HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/styles/diff.css?ver=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/js/csrf.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:27] "GET /static/js/plugins.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:28] "GET /static/js/diff-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:28] "GET /static/js/preview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:28] "GET /static/js/tabs.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:28] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:28] "GET /static/images/google-chrome-icon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:37:33] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:37:47] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:37:49] "GET /share-url/7c9de5d5-ed15-40fa-9c04-6ca812878fdd HTTP/1.1" 302 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/csrf.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/images/copy.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/images/google-chrome-icon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:37:50] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:51] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:51] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:51] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:51] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:51] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:37:51] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:38:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /?sort=paused&order=desc HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/csrf.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/images/google-chrome-icon.png HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:05] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:06] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:06] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:06] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:06] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:06] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:06] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:10] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /share-url/7c9de5d5-ed15-40fa-9c04-6ca812878fdd HTTP/1.1" 302 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/csrf.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/google-chrome-icon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/copy.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:12] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /?with_errors=1 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/csrf.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/images/google-chrome-icon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:29] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /?with_errors=1 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/styles/pure-min.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/styles/styles.css?v=0.50.24 HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/csrf.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/feather-icons.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/socket.io.min.js HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/realtime.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/watch-overview.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/toggle-theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/images/google-chrome-icon.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2025 22:39:32] "GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:33] "GET /static/images/spread-white.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:33] "GET /static/images/pause.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:33] "GET /static/images/bell-off.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:33] "GET /static/images/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:33] "GET /static/images/spread.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:39:33] "GET /static/images/generic_feed-icon.svg HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2025 22:44:10] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 336, in execute
+    write(b"")
+  File "D:\sample\web scrapping\changedetection.io\.venv\Lib\site-packages\werkzeug\serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: write() before start_response

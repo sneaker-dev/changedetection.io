@@ -20,7 +20,7 @@ Ideal for monitoring price changes, content edits, conditional changes and more.
 
 ### Target specific parts of the webpage using the Visual Selector tool.
 
-Available when connected to a <a href="https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
+Available when connected to a <a href="https://github.com/sneaker-dev/changedetection.io/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
 
 [<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/visualselector-anim.gif" style="max-width:100%;" alt="Select parts and elements of a web page to monitor for changes"  title="Select parts and elements of a web page to monitor for changes" />](https://changedetection.io?src=pip)
 
@@ -81,14 +81,14 @@ _Need an actual Chrome runner with Javascript support? We support fetching via W
 - Execute JS before extracting text (Good for logging in, see examples in the UI!)
 - Override Request Headers, Specify `POST` or `GET` and other methods
 - Use the "Visual Selector" to help target specific elements
-- Configurable [proxy per watch](https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration)
+- Configurable [proxy per watch](https://github.com/sneaker-dev/changedetection.io/wiki/Proxy-configuration)
 - Send a screenshot with the notification when a change is detected in the web page
 
 We [recommend and use Bright Data](https://brightdata.grsm.io/n0r16zf7eivq) global proxy services, Bright Data will match any first deposit up to $100 using our signup link.
 
 [Oxylabs](https://oxylabs.go2cloud.org/SH2d) is also an excellent proxy provider and well worth using, they offer Residental, ISP, Rotating and many other proxy types to suit your project. 
 
-Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/changedetection.io/
+Please :star: star :star: this project and help it grow! https://github.com/sneaker-dev/changedetection.io/
 
 
 

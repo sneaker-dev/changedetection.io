@@ -208,7 +208,7 @@ def test_requests_timeout(client, live_server, measure_memory_usage):
 def test_non_text_mime_or_downloads(client, live_server, measure_memory_usage):
     """
 
-    https://github.com/dgtlmoon/changedetection.io/issues/3434
+    https://github.com/sneaker-dev/changedetection.io/issues/3434
     I noticed that a watched website can be monitored fine as long as the server sends content-type: text/plain; charset=utf-8,
     but once the server sends content-type: application/octet-stream (which is usually done to force the browser to show the Download dialog),
     changedetection somehow ignores all line breaks and treats the document file as if everything is on one line.
@@ -267,7 +267,7 @@ got it\r\n
 def test_standard_text_plain(client, live_server, measure_memory_usage):
     """
 
-    https://github.com/dgtlmoon/changedetection.io/issues/3434
+    https://github.com/sneaker-dev/changedetection.io/issues/3434
     I noticed that a watched website can be monitored fine as long as the server sends content-type: text/plain; charset=utf-8,
     but once the server sends content-type: application/octet-stream (which is usually done to force the browser to show the Download dialog),
     changedetection somehow ignores all line breaks and treats the document file as if everything is on one line.

@@ -77,7 +77,7 @@ def set_modified_response():
     return None
 
 
-# Handle utf-8 charset replies https://github.com/dgtlmoon/changedetection.io/pull/613
+# Handle utf-8 charset replies https://github.com/sneaker-dev/changedetection.io/pull/613
 def test_check_xpath_filter_utf8(client, live_server, measure_memory_usage):
     filter = '//item/*[self::description]'
 
@@ -128,7 +128,7 @@ def test_check_xpath_filter_utf8(client, live_server, measure_memory_usage):
     delete_all_watches(client)
 
 
-# Handle utf-8 charset replies https://github.com/dgtlmoon/changedetection.io/pull/613
+# Handle utf-8 charset replies https://github.com/sneaker-dev/changedetection.io/pull/613
 def test_check_xpath_text_function_utf8(client, live_server, measure_memory_usage):
     filter = '//item/title/text()'
 
@@ -382,7 +382,7 @@ def test_various_rules(client, live_server, measure_memory_usage):
      <div class="changetext">Some text that will change</div>
      <a href=''>some linky </a>
      <a href=''>another some linky </a>
-     <!-- related to https://github.com/dgtlmoon/changedetection.io/pull/1774 -->
+     <!-- related to https://github.com/sneaker-dev/changedetection.io/pull/1774 -->
      <input   type="email"   id="email" />     
      </body>
      </html>

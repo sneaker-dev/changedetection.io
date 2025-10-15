@@ -199,7 +199,7 @@ def test_check_notification(client, live_server, measure_memory_usage):
 
 
     # Prove that "content constantly being marked as Changed with no Updating causes notification" is not a thing
-    # https://github.com/dgtlmoon/changedetection.io/discussions/192
+    # https://github.com/sneaker-dev/changedetection.io/discussions/192
     os.unlink("test-datastore/notification.txt")
 
     # Trigger a check
